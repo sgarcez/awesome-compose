@@ -15,6 +15,8 @@ const app = express();
 //connection from db here
 db.connect(app);
 
+console.log("small change");
+
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));

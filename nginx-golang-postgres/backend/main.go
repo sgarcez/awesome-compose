@@ -47,6 +47,7 @@ func blogHandler(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	log.Print("Prepare db...")
+	log.Print("small change")
 	if err := prepare(); err != nil {
 		log.Fatal(err)
 	}
